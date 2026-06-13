@@ -1,8 +1,7 @@
-vel = 2;
+vel = 3;
 velh = 0; 
 velv = 0;
 grav = 0.3;
-
 
 moving = function(){
 	var _right	= keyboard_check(ord("D"));
@@ -13,7 +12,7 @@ moving = function(){
 	velh = (_right - _left) * vel;
 	velv += grav;
 	
-	if(_jump && place_meeting(x, y+1, all)){
+	if(_jump && place_meeting(x, y+1, obj_collision)){
 		velv -= _jump_height;
 	}
 }
@@ -21,7 +20,7 @@ moving = function(){
 collision = function(){
 	
 	repeat(abs(velh)){
-		if(place_meeting(x+sign(velh), y, all)){
+		if(place_meeting(x+sign(velh), y, obj_collision)){
 			velh = 0;
 			break;
 		} else{
@@ -30,7 +29,7 @@ collision = function(){
 	}
 	
 	repeat(abs(velv)){
-		if(place_meeting(x, y+sign(velv), all)){
+		if(place_meeting(x, y+sign(velv), obj_collision)){
 			velv = 0;
 			break;
 		} else{
