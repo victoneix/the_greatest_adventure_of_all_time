@@ -1,6 +1,6 @@
 with(obj_player){
-	if(place_meeting(x, y+1, obj_spring)){
+	if(place_meeting(x, y+1, other)){
 		velv = 0;
-		velv -= obj_spring.impul;
+		velv -= other.impulse;
 	}
 }

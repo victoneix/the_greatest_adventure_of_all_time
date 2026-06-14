@@ -3,9 +3,13 @@
   "resourceVersion": "1.6",
   "name": "the_greatest_adventure_of_all_time",
   "resources": [
+    {"id":{"name":"spr_belt","path":"sprites/spr_belt/spr_belt.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_platform_frag","path":"sprites/spr_platform_frag/spr_platform_frag.yy",},"order":4,},
     {"id":{"name":"spr_room","path":"sprites/spr_room/spr_room.yy",},"order":2,},
     {"id":{"name":"obj_spring","path":"objects/obj_spring/obj_spring.yy",},"order":4,},
+    {"id":{"name":"obj_belt","path":"objects/obj_belt/obj_belt.yy",},"order":6,},
+    {"id":{"name":"obj_platform_frag","path":"objects/obj_platform_frag/obj_platform_frag.yy",},"order":5,},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},"order":3,},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},

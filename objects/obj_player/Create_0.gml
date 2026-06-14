@@ -11,9 +11,10 @@ moving = function(){
 	
 	velh = (_right - _left) * vel;
 	velv += grav;
+	velv = clamp(velv, -12, 12);
 	
 	if(_jump && place_meeting(x, y+1, obj_collision)){
-		velv -= _jump_height;
+		velv = -_jump_height;
 	}
 }
 
