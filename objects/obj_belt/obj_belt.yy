@@ -32,7 +32,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"speed_dir","varType":3,"value":"0","rangeEnabled":true,"rangeMin":-2.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"push_dir","varType":3,"value":"0","rangeEnabled":true,"rangeMin":-2.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"speed_max","varType":0,"value":"0","rangeEnabled":true,"rangeMin":0.0,"rangeMax":2.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],

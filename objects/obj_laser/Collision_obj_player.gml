@@ -1,0 +1,3 @@
+if(activated){
+	other.damage();
+}

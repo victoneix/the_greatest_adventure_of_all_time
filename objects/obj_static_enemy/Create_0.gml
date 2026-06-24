@@ -1,0 +1,1 @@
+path_start(paths_type, paths_speed, paths_direction, false);

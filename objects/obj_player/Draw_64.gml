@@ -1,1 +1,5 @@
-draw_sprite_ext(spr_spring, 0, 8, 8, 3, 3, 0, c_white, 1);
+var _marg = 0;
+repeat(life){
+	draw_sprite(spr_lifes, 0, 4 + _marg, 4);
+	_marg +=24;
+}
