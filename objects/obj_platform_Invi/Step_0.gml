@@ -1,11 +1,12 @@
-if(stepped && alarm[1] < 0){
-	alarm[1] = timer;
+if(stepped){
+	image_speed = 1;
+} else{
+	if(image_index > 1){
+		image_speed = -1;
+		x = xstart;
+		y = ystart;
+	} else{
+		image_speed = 0;
+		image_index = 0;
+	}
 }
-
-if((image_index < 1 && !stepped) && alarm[0] < 0){
-	image_speed = 0;
-	image_index = 0;
-	alarm[0] = timer;
-}
-//show_debug_message(alarm[0]);
-//show_debug_message(alarm[1]);

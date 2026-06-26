@@ -1,2 +1,2 @@
-stepped = true;
-image_speed = 1;
+stepped =! stepped;
+alarm[0] = timer;
