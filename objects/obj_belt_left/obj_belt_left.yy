@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_belt",
+  "name": "obj_belt_left",
   "spriteId": {
     "name": "spr_belt",
     "path": "sprites/spr_belt/spr_belt.yy",

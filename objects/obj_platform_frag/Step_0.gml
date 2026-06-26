@@ -6,7 +6,7 @@ with(obj_player){
 
 if(stepped){
 	image_speed = 1;
-	if(alarm[0] < 0) alarm[0] = 60;
+	if(alarm[0] < 0) alarm[0] = 60*3;
 } else{
 	if(image_index > 1){
 		image_speed = -1;
